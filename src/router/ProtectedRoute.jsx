@@ -1,5 +1,5 @@
-import { Navigate } from 'react-router';
-import { useGlobalStore } from '../hooks/useGlobalStore';
+import { Navigate } from "react-router-dom";
+import { useGlobalStore } from "../hooks/useGlobalStore";
 
 function ProtectedRoute({ children }) {
   const { store } = useGlobalStore();

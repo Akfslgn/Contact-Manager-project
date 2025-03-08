@@ -1,6 +1,6 @@
-import { createContext, useReducer } from 'react';
-import { initialState } from './initialStore.js';
-import { storeReducer } from './storeReducer.js';
+import { createContext, useReducer } from "react";
+import { initialState } from "./initialStore.js";
+import { storeReducer } from "./storeReducer.js";
 
 // eslint-disable-next-line
 export const StoreContext = createContext(null);
